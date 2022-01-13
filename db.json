@@ -1,0 +1,20 @@
+{
+  "gifts": [
+    {
+      "Id": 1,
+      "username": "cnmak",
+      "recipient": "Christina",
+      "gift": "Teddy Bear",
+      "price": "$10",
+      "hidingSpot": "Closet"
+    },
+    {
+      "id": 2,
+      "username": "bob",
+      "recipient": "bob",
+      "gift": "Bear",
+      "price": "$150",
+      "hidingSpot": "Closet"
+    }
+  ]
+}

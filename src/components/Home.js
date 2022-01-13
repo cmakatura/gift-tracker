@@ -1,7 +1,12 @@
 import React from "react";
 
-function Home() {
-  return <h1>This is my home component!</h1>;
+const Home = async () => {
+  let uri = 'http://localhost:3000/gifts'
+  
+  const res = await fetch(uri);
+  const gifts = await res.json();
+  console.log(gifts)
+
 }
 
 export default Home;

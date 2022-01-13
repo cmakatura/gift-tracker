@@ -3,14 +3,15 @@ import { Route, Switch } from "react-router-dom";
 
 
 import MyGifts from "./MyGifts";
-import SignUp from "./SignUp";
 import AddNewGift from "./AddNewGift";
 import Home from "./Home";
-import Login from "./Login";
+import NavBar from "./NavBar";
 
 function App() {
   return (
+    
     <div>
+      <NavBar />
        <Switch>
          <Route exact path="/home">
             <Home />
@@ -29,17 +30,8 @@ function App() {
          </Route>
        </Switch>
 
-       <Switch>
-         <Route exact path="/login">
-            <Login />
-         </Route>
-       </Switch>
 
-       <Switch>
-         <Route exact path="/signup">
-            <SignUp />
-         </Route>
-       </Switch>
+    
     </div>
   );
 }
