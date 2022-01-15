@@ -1,7 +1,11 @@
 import React from "react";
 import { useState } from "react";
+import { useHistory } from "react-router-dom";
+import '../App.css';
 
 function AddNewGift() {
+  const history = useHistory()
+
   const [username, setUsername] = useState('');
   const [recipient, setRecipient] = useState('');
   const [gift, setGift] = useState('');
@@ -12,64 +16,80 @@ function AddNewGift() {
     
     e.preventDefault();
     const card = { username, recipient, gift, price, hidingSpot};
-    fetch("http://localhost:3000/gifts", {
+    fetch("http://localhost:5000/gifts", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify({card}
+      body: JSON.stringify({
+        username, recipient, gift, price, hidingSpot
+       
+      }
       ),
     })
 .then(res => res.json())
 .then(data => console.log(data))
+
+history.push("/mygifts");
+
   }
 
 return(
-  <div>
+  <div className="form-box" align="center">
     <h2>Add a New Gift</h2>
     <form onSubmit={handleSubmit}>
 
-    <label>Unique User ID:</label>
+    
       <input 
+      className="form-input"
       type="text" 
       required
+      placeholder="Unique User ID"
       value={username}
       onChange = {(e) => setUsername(e.target.value)}
       />
 
-      <label>Recipient Name:</label>
+    
       <input 
+      className="form-input"
       type="text" 
       required
+      placeholder="Recipient Name"
       value={recipient}
       onChange = {(e) => setRecipient(e.target.value)}
       />
 
-      <label>Gift:</label>
+      
       <input 
+      className="form-input"
       type="text" 
       required
+      placeholder="Gift"
       value={gift}
       onChange = {(e) => setGift(e.target.value)}
       />
 
-      <label>Price:</label>
+      
       <input 
+      className="form-input"
       type="text" 
       required
+      placeholder="Price"
       value={price}
       onChange = {(e) => setPrice(e.target.value)}
       />
 
-      <label>Hiding Spot:</label>
+      
       <input 
+      className="form-input"
       type="text" 
       required
+      placeholder="Hiding Spot"
       value={hidingSpot}
       onChange = {(e) => setHidingSpot(e.target.value)}
       />
 
-      <input type="submit" value="Submit" />
+      <input type="submit" className="submitBtn" value="Submit" />
 
     </form>
   </div>
@@ -77,12 +97,3 @@ return(
 }
 
 export default AddNewGift;
-
-
-/*
-"username": "bob21",
-"recipient": "Ted",
-"gift": "Bear",
-"price": "$150",
-"hidingSpot": "Closet"
-*/

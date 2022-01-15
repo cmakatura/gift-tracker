@@ -1,20 +1,52 @@
 {
   "gifts": [
     {
-      "Id": 1,
+      "id": 1,
       "username": "cnmak",
       "recipient": "Christina",
       "gift": "Teddy Bear",
-      "price": "$10",
+      "price": "10",
       "hidingSpot": "Closet"
     },
     {
       "id": 2,
-      "username": "bob",
-      "recipient": "bob",
-      "gift": "Bear",
-      "price": "$150",
+      "username": "bob23",
+      "recipient": "Ricky",
+      "gift": "Toy Car",
+      "price": "15",
       "hidingSpot": "Closet"
+    },
+    {
+      "username": "rickyhill",
+      "recipient": "Christina M.",
+      "gift": "Flowers",
+      "price": "5",
+      "hidingSpot": "Cabinet",
+      "id": 3
+    },
+    {
+      "username": "cnmak",
+      "recipient": "Julie",
+      "gift": "Kitten",
+      "price": "100",
+      "hidingSpot": "YARD",
+      "id": 4
+    },
+    {
+      "username": "freddy56",
+      "recipient": "Chloe M.",
+      "gift": "Toy",
+      "price": "5",
+      "hidingSpot": "bedroom",
+      "id": 5
+    },
+    {
+      "username": "sndfonsdk",
+      "recipient": "sdfdf",
+      "gift": "sdfdsf",
+      "price": "sdfdf",
+      "hidingSpot": "sdfdf",
+      "id": 6
     }
   ]
 }

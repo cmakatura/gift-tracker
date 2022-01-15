@@ -1,24 +1,12 @@
 import { Link } from "react-router-dom";
-import { useHistory } from "react-router-dom";
 
-function NavBar({ onLogout }) {
-  const history = useHistory()
-
+function NavBar() {
   
-
-  function handleClick() {
-  
-    // logout the user
-    onLogout();
-    // then navigate them to the login page
-    history.push("/login");
-  }
-
   return (
     <nav className="navbar">
       <h1>The Gift Tracker</h1>
       <div className="links">
-        <Link to="/" style={{ 
+        <Link to="/home" style={{ 
           color: 'white', 
           backgroundColor: "green",
           borderRadius: '8px'
@@ -30,11 +18,15 @@ function NavBar({ onLogout }) {
           borderRadius: '8px'
           }}>Gifts</Link>
 
-        <Link to="/addnewgift">Add A New Gift</Link>
+        <Link to="/addnewgift" style={{ 
+          color: 'white', 
+          backgroundColor: "green",
+          borderRadius: '8px'
+        }}>Add A New Gift</Link>
 
         
 
-        <button onClick={handleClick}>Logout</button>
+        
 
       </div>
     </nav>

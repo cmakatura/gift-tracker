@@ -36,3 +36,54 @@
     transform: rotate(360deg);
   }
 }
+
+
+/************** FORM ****************/
+
+.form-box{
+  min-width: 50%;
+  height: 90vh;
+  /*border: dotted #F55A00 5vw; */
+  /*border: 1px solid red; */
+  margin: 0vw;
+  padding: 5vw;
+  background-color: rgb(199, 194, 194);
+  position:relative; 
+}
+
+/******** h2 ********/
+
+.form-box h2{
+  font-size: 35px ;
+  text-align: center;
+  color: #05800f;
+  margin: 0 0 .5vh 0;
+}
+
+/******** input textarea ********/
+
+.form-box input, textarea{
+  display: block;
+  width: 40%;
+  padding: .5rem .8rem .5rem .8rem;
+  margin: .9vw 0;
+  border:0;
+  border-radius: 5px;
+  font-size: 20px;
+  position:relative; 
+}
+
+.form-box textarea{
+  height: 15vh;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.homepage{
+  
+}

@@ -1,12 +1,16 @@
 import React from "react";
 
-const Home = async () => {
-  let uri = 'http://localhost:3000/gifts'
-  
-  const res = await fetch(uri);
-  const gifts = await res.json();
-  console.log(gifts)
 
+function Home(){
+  return(
+    <div className="homepage">
+    <img src="./images/gift.jpg" alt="gift"/>
+    <h3>Happy holidays and welcome to The Gift Tracker, an app to keep track of all of your Christmas Shopping.</h3>
+    </div>
+  )
+  
 }
 
 export default Home;
+
+
