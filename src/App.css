@@ -84,6 +84,17 @@
   
 }
 
-.homepage{
+.gift-container{
   
+  width: 100x;
+  list-style-type: none;
+  text-align: center;
+  font-family: fantasy;
+  color:#f2f7f3;
+  margin: 10px;
+  border: 5px solid rgb(192, 7, 7);
+  background: rgba(38, 131, 34, 0.75);
+    padding: 15px 20px 18px 18px;
+    border-radius: 5px;  
 }
+

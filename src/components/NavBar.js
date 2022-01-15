@@ -1,9 +1,11 @@
 import { Link } from "react-router-dom";
+import { Icon } from 'semantic-ui-react'
 
 function NavBar() {
   
   return (
     <nav className="navbar">
+      
       <h1>The Gift Tracker</h1>
       <div className="links">
         <Link to="/home" style={{ 

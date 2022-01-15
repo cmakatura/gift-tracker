@@ -30,18 +30,15 @@ function MyGifts() {
      {
        data.map((item)=>
 
-       <div className='giftcard' key={item.id}>
-            <h3 className="ui header">For: {item.recipient}</h3>
-            <h5 className="ui header">Gift: {item.gift}</h5>
-            <h5 className="ui header">Price: ${item.price}</h5> 
-            <h5 className="ui header">Hiding Spot: {item.hidingSpot}</h5> 
+       <div className='gift-container' align="center" key={item.id}>
+         
+            <h3>For: {item.recipient}</h3>
+            
+            <h5>Gift: {item.gift}</h5>
+            <h5>Price: ${item.price}</h5> 
+            <h5>Hiding Spot: {item.hidingSpot}</h5> 
            
         </div> 
-       
-
-
-
-       
        )
      }
     </div>

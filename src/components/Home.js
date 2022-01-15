@@ -1,5 +1,4 @@
-import React from "react";
-
+import React from 'react'
 
 function Home(){
   return(
@@ -12,5 +11,6 @@ function Home(){
 }
 
 export default Home;
+
 
 
