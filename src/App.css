@@ -47,22 +47,24 @@
   /*border: 1px solid red; */
   margin: 0vw;
   padding: 5vw;
-  background-color: rgb(199, 194, 194);
+  background-color: rgba(120, 185, 174, 0.75);
   position:relative; 
 }
 
 /******** h2 ********/
 
 .form-box h2{
+  font-family: fantasy;
   font-size: 35px ;
   text-align: center;
-  color: #05800f;
+  color: #f8fcf8;
   margin: 0 0 .5vh 0;
 }
 
 /******** input textarea ********/
 
 .form-box input, textarea{
+  font-family: fantasy;
   display: block;
   width: 40%;
   padding: .5rem .8rem .5rem .8rem;
@@ -86,15 +88,71 @@
 
 .gift-container{
   
-  width: 100x;
+}
+
+.gift{
+  justify-content: center;
+  max-width: 200px;
   list-style-type: none;
   text-align: center;
   font-family: fantasy;
   color:#f2f7f3;
   margin: 10px;
-  border: 5px solid rgb(192, 7, 7);
-  background: rgba(38, 131, 34, 0.75);
+  
+  background: rgba(120, 185, 174, 0.75);
     padding: 15px 20px 18px 18px;
     border-radius: 5px;  
 }
 
+.homepage {
+  
+  text-align: center;
+}
+
+.nav {
+  position: relative;
+  width: 100x;
+  list-style-type: none;
+  text-align: center;
+  font-family: fantasy;
+  color:rgba(120, 185, 174, 0.75);
+  margin: 10px;
+  justify-content: center;
+  
+  
+    border-radius: 5px; 
+    padding: 20px;
+}
+
+.navbar {
+  position: relative;
+  width: 100x;
+  list-style-type: none;
+  text-align: center;
+  font-family: fantasy;
+  color:#b62a07;
+  margin: 10px;
+  justify-content: center;
+  background-image: url(/public/images/snowflake.jpeg);
+  
+    border-radius: 5px; 
+    padding: 20px;
+}
+
+
+
+.navbar h1 {
+  color:rgba(120, 185, 174, 0.75);
+  padding: 20px;
+  font-size: xxx-large;
+  text-align: center;
+  
+  
+}
+.navbar .links {
+  margin-left: 0;
+}
+
+.navbar a:hover {
+  color: #a00893;
+}

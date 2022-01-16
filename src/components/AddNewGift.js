@@ -15,7 +15,6 @@ function AddNewGift() {
   const handleSubmit = (e) => {
     
     e.preventDefault();
-    const card = { username, recipient, gift, price, hidingSpot};
     fetch("http://localhost:5000/gifts", {
       method: "POST",
       headers: {

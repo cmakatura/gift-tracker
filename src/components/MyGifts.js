@@ -26,11 +26,11 @@ function MyGifts() {
     getData()
   },[])
   return (
-    <div>
+    <div className="gift-container" align="center">
      {
        data.map((item)=>
 
-       <div className='gift-container' align="center" key={item.id}>
+       <div className="gift" key={item.id}>
          
             <h3>For: {item.recipient}</h3>
             

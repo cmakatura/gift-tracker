@@ -1,30 +1,19 @@
 import { Link } from "react-router-dom";
-import { Icon } from 'semantic-ui-react'
 
 function NavBar() {
   
   return (
+    
     <nav className="navbar">
       
+    
+      <div>
       <h1>The Gift Tracker</h1>
-      <div className="links">
-        <Link to="/home" style={{ 
-          color: 'white', 
-          backgroundColor: "green",
-          borderRadius: '8px'
-          }}>Home</Link>
+        <Link to="/home" className="nav">Home</Link>
 
-        <Link to="/mygifts"style={{ 
-          color: 'white', 
-          backgroundColor: "green",
-          borderRadius: '8px'
-          }}>Gifts</Link>
+        <Link to="/mygifts" className="nav">Gifts</Link>
 
-        <Link to="/addnewgift" style={{ 
-          color: 'white', 
-          backgroundColor: "green",
-          borderRadius: '8px'
-        }}>Add A New Gift</Link>
+        <Link to="/addnewgift" className="nav">Add A New Gift</Link>
 
         
 
@@ -32,6 +21,7 @@ function NavBar() {
 
       </div>
     </nav>
+    
   );
 }
  
