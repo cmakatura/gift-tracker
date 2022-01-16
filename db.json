@@ -1,17 +1,17 @@
 {
   "gifts": [
     {
-      "id": 1,
-      "username": "cnmak",
-      "recipient": "Christina",
-      "gift": "Teddy Bear",
-      "price": "10",
-      "hidingSpot": "Closet"
+      "username": "Santa123",
+      "recipient": "Mrs. Clause",
+      "gift": "Sleigh",
+      "price": "500",
+      "hidingSpot": "Reindeer Barn",
+      "id": 1
     },
     {
       "id": 2,
       "username": "bob23",
-      "recipient": "Ricky",
+      "recipient": "Ricky H.",
       "gift": "Toy Car",
       "price": "15",
       "hidingSpot": "Closet"
@@ -25,36 +25,12 @@
       "id": 3
     },
     {
-      "username": "cnmak",
-      "recipient": "Julie",
-      "gift": "Kitten",
-      "price": "100",
-      "hidingSpot": "YARD",
+      "username": "rickyhill",
+      "recipient": "Remi",
+      "gift": "Nerf gun",
+      "price": "25",
+      "hidingSpot": "closet",
       "id": 4
-    },
-    {
-      "username": "freddy56",
-      "recipient": "Chloe M.",
-      "gift": "Toy",
-      "price": "5",
-      "hidingSpot": "bedroom",
-      "id": 5
-    },
-    {
-      "username": "sndfonsdk",
-      "recipient": "sdfdf",
-      "gift": "sdfdsf",
-      "price": "sdfdf",
-      "hidingSpot": "sdfdf",
-      "id": 6
-    },
-    {
-      "username": "Santa123",
-      "recipient": "Mrs. Clause",
-      "gift": "Sleigh",
-      "price": "500",
-      "hidingSpot": "Reindeer Barn",
-      "id": 7
     }
   ]
 }
