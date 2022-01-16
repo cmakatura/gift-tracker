@@ -76,7 +76,13 @@
     border-radius: 5px;  
 }
 
+.filter{
 
+  text-align: center;
+  font-family: fantasy;
+  color:rgba(120, 185, 174, 0.75);
+  margin: 10px;
+}
 
 
 .homepage {
