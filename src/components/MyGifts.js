@@ -53,7 +53,7 @@ item.username.toLowerCase().includes(filter.toLowerCase())
 
 
       <p className="filter" align="center">
-        Type to filter the list by your username: 
+        Type to filter by your Unique User ID: 
         <input id="filter"
           name="filter"
           type="text"

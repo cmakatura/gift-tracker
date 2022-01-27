@@ -43,7 +43,7 @@ return(
       className="form-input"
       type="text" 
       required
-      placeholder="Unique User ID"
+      placeholder="Unique User ID (important to remember)"
       value={username}
       onChange = {(e) => setUsername(e.target.value)}
       />

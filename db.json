@@ -31,6 +31,30 @@
       "price": "25",
       "hidingSpot": "closet",
       "id": 4
+    },
+    {
+      "username": "santa123",
+      "recipient": "Christina",
+      "gift": "Puppy",
+      "price": "100",
+      "hidingSpot": "Bedroom",
+      "id": 5
+    },
+    {
+      "username": "christinamakatura123",
+      "recipient": "Julie M.",
+      "gift": "Necklace",
+      "price": "30",
+      "hidingSpot": "Hall closet",
+      "id": 6
+    },
+    {
+      "username": "christinamakatura123",
+      "recipient": "Joe M.",
+      "gift": "Pocket knife",
+      "price": "50",
+      "hidingSpot": "Kitchen drawer",
+      "id": 7
     }
   ]
 }
