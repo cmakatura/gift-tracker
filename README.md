@@ -1,6 +1,4 @@
 # The Gift Tracker
-
-# About
 Welcome to the Gift Traker, an app to keep up with all the gifts you have purchased for the holidays. You can enter recipient, hiding spot, price, gift, and a unique user Id to be able to keep track of your gifts.
 
 # Installation & Getting Started with Create React App
