@@ -15,8 +15,7 @@
 .form-box{
   min-width: 50%;
   height: 90vh;
-  /*border: dotted #F55A00 5vw; */
-  /*border: 1px solid red; */
+  
   margin: 0vw;
   padding: 5vw;
   background-color: rgba(120, 185, 174, 0.75);

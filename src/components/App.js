@@ -1,6 +1,6 @@
 
 import { Route, Switch } from "react-router-dom";
-import 'semantic-ui-css/semantic.min.css';
+//import 'semantic-ui-css/semantic.min.css';
 
 
 import MyGifts from "./MyGifts";
