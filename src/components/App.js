@@ -1,5 +1,8 @@
 
 import { Route, Switch } from "react-router-dom";
+import 'semantic-ui-css/semantic.min.css';
+
+
 import MyGifts from "./MyGifts";
 import AddNewGift from "./AddNewGift";
 import Home from "./Home";
@@ -27,6 +30,9 @@ function App() {
             <AddNewGift />
          </Route>
        </Switch>
+
+
+    
     </div>
   );
 }
