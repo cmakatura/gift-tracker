@@ -55,22 +55,6 @@
       "price": "50",
       "hidingSpot": "Kitchen drawer",
       "id": 7
-    },
-    {
-      "username": "1",
-      "recipient": "2",
-      "gift": "3",
-      "price": "4",
-      "hidingSpot": "5",
-      "id": 8
-    },
-    {
-      "username": "dfghdfgfd",
-      "recipient": "dfgdfgdf",
-      "gift": "dfgdfgfd",
-      "price": "dfgdfgdf",
-      "hidingSpot": "",
-      "id": 9
     }
   ]
 }
