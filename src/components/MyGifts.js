@@ -2,21 +2,10 @@
 import React, {useState, useEffect} from 'react';
 
 
-
-
 function MyGifts() {
 
 
   const [filter, setFilter] = useState("");
-
-
-
-
-
-
-
-
-
 
   const [data,setData]=useState([]);
   const getData=()=>{
@@ -26,20 +15,15 @@ function MyGifts() {
         'Content-Type': 'application/json',
         'Accept': 'application/json'
        }
-    }
+      }
     )
       .then(response => response.json())
       .then(json => setData(json))
   }
 
-
   useEffect(()=>{
     getData()
   },[])
-
-
-
-
 
 const results = data.filter((item) =>
 item.username.toLowerCase().includes(filter.toLowerCase())
@@ -47,10 +31,6 @@ item.username.toLowerCase().includes(filter.toLowerCase())
 
   return (
 <div>
-
-
-
-
 
       <p className="filter" align="center">
         Type to filter by your Unique User ID: 
@@ -61,13 +41,6 @@ item.username.toLowerCase().includes(filter.toLowerCase())
           onChange={event => setFilter(event.target.value)}
         />
       </p>
-      
-     
-
-
-
-
-
 
 
     <div className="gift-container" align="center">
