@@ -82,7 +82,7 @@ return(
       <input 
       className="form-input"
       type="text" 
-      required
+      
       placeholder="Hiding Spot"
       value={hidingSpot}
       onChange = {(e) => setHidingSpot(e.target.value)}
